@@ -1,0 +1,7 @@
+senha = ""
+while senha != "python123":
+    senha = input ("Digite a senha: ")
+    if senha == "python123":
+            print ("Senha correta! Acesso liberado")
+    else:
+          print ("Senha incorreta, tente novamente")
